@@ -1,0 +1,5 @@
+Cytoscape-App-Version: 1.0
+Cytoscape-App-Name: PathExplorer
+Cytoscape-App: org.nrnb.pathexplorer.PathExplorer
+Cytoscape-API-Compatibility: 3.0
+
