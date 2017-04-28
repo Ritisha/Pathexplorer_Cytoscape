@@ -3,7 +3,7 @@
 <project name="PathExplorer" default="jar" basedir=".">
 
 	<!-- Name of App -->
-	<property name="app.name" value="PathExplorer" />
+	<property name="app.name" value="PathExplorer-v1.1" />
 
 	<!-- The directory containing source code -->
 	<property name="src.dir" value="src" />

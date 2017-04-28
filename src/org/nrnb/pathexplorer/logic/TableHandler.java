@@ -34,13 +34,13 @@ public class TableHandler implements NetworkAddedListener {
 					Boolean.FALSE);
 		
 		hiddenNodeTable = currNet
-				.getTable(CyNode.class, CyNetwork.HIDDEN_ATTRS);
+				.getTable(CyNode.class, CyNetwork.DEFAULT_ATTRS);
 		if (hiddenNodeTable.getColumn(IN_PATH_COL) == null)
 			hiddenNodeTable.createColumn(IN_PATH_COL, Boolean.class, true,
 					Boolean.FALSE);
 		
 		hiddenEdgeTable = currNet
-				.getTable(CyEdge.class, CyNetwork.HIDDEN_ATTRS);
+				.getTable(CyEdge.class, CyNetwork.DEFAULT_ATTRS);
 		if (hiddenEdgeTable.getColumn(IN_PATH_COL) == null)
 			hiddenEdgeTable.createColumn(IN_PATH_COL, Boolean.class, true,
 					Boolean.FALSE);
