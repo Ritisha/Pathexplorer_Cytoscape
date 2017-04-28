@@ -26,7 +26,7 @@ public class SelectPathsTask extends AbstractNetworkViewTask{
 		CyNetwork net;
 		CyRow row;
 		net = netView.getModel();
-		CyTable hiddenNodeTable = net.getTable(CyNode.class, CyNetwork.HIDDEN_ATTRS);
+		CyTable hiddenNodeTable = net.getTable(CyNode.class, CyNetwork.DEFAULT_ATTRS);
 		List<CyNode> allNodes = new ArrayList<CyNode>();
 		allNodes = net.getNodeList();
 		ArrayList<CyNode> toSelect = new ArrayList<CyNode>();
